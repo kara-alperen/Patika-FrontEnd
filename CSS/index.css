@@ -1,0 +1,22 @@
+/* Açıklama satırı  ctrl+ö */
+/* class -> .text-red {} */
+/* id -> #id-bilgisi {} */
+
+
+body {background-color:rgb(26, 24, 23);}
+
+
+h2 {
+    color:blueviolet; 
+    font-size:30px;
+}
+p {
+    color: burlywood;
+     font-size: 30px;
+}
+.text-red {
+    color: cadetblue;
+}
+h1 {
+    font-size: 30px;
+}

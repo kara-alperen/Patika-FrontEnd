@@ -20,3 +20,4 @@ p {
 h1 {
     font-size: 30px;
 }
+a.test:hover { color: red; };

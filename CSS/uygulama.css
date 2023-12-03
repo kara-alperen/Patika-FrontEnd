@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 50px auto 0;
+}
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+}
+
+.card{
+    width: 33%;
+    float: left;
+    background-color:burlywood;
+    border-radius: 5px;
+}
+
+.clear {
+    clear: both;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    float: left;
+}
+
+.bg-green {
+    background-color:green;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0
+}
+.navbar{
+  height: 54px;
+  }
+.navbar-brand {
+  margin-left: 192px;
+}
+.rbar{
+  margin-right: 50px;
+  text-align: center;
+}
+.rbar i {
+  font-size: 20; 
+}
+.rbar img{
+  
+  width: 30;
+  height: 30;
+  border-radius: 100%;
+  
+}
+.border-r{
+  border: solid;
+  border-radius: 100%;
+  border-color: red;
+}
+.colcent{
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+
+}
+.col-sm-8 .story{
+  margin: 30px auto;
+  
+
+}
+.rside{
+  margin: 30;
+}
+.icon{
+  font-size: 30;
+}

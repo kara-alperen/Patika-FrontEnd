@@ -1,0 +1,180 @@
+.navbarbg {
+  height: 55px;
+  background-color: white;
+  border-color: #8c8c8c33 !important;
+}
+
+input.searche {
+  height: 36px;
+  max-width: 500px;
+  background-color: #eef3f8;
+  border: 0;
+}
+
+input.searche::placeholder {
+  font-size: 14px;
+  color: gray;
+  background-image: url("../assets/search-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 8%;
+}
+
+.body {
+  padding-top: 100px;
+  background-color: #f3f2ef;
+}
+
+.menutext {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+.menutext:hover {
+  color: black;
+}
+
+button.mediatext {
+  color: #5f5f5f;
+}
+
+button.mediatext:hover {
+  color: #5f5f5f;
+}
+
+.mediatext {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f5f5f;
+}
+
+i {
+  color: gray;
+}
+li a i {
+  margin-top: 8px;
+}
+i:hover {
+  color: black;
+}
+
+input.content {
+  border-radius: 40px;
+  height: 45px;
+}
+input.content::placeholder {
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../assets/edit-regular.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-left: 30px;
+  padding-top: 3px;
+}
+
+div.card {
+  border-radius: 10px;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.view {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+
+.categories {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+li {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.link {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5f5f5f;
+}
+
+button.ref {
+  color: white;
+}
+
+button.ref:hover {
+  color: #5f5f5f;
+}
+
+.postphoto {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.posttext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.card-font {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue" sans-serif !important;
+}
+.fs-12 {
+  font-size: 1.2rem !important;
+}
+.card-span {
+  font-size: 13px !important;
+  color: #474747 !important;
+}
+.card-b-span {
+  font-size: 15px !important;
+  color: black !important;
+}
+.card-gry-span {
+  font-size: 13px;
+  color: #5f5f5f !important;
+}
+.card-bold-span {
+  font-size: 13px !important;
+  font-weight: bold !important;
+}
+.w-14 {
+  width: 14rem !important;
+}
+.arama-margin {
+  margin-right: 150px !important;
+}
+.linkedin-logo {
+  color: #0a66c2 !important;
+  font-size: 2.4rem !important;
+}
+.card-body-div {
+  position: relative !important;
+  margin-top: -10px !important;
+  margin-bottom: 10px !important;
+  color: #5f5f5f !important;
+}
+.card-pp {
+  border: 2px solid #fff !important;
+  width: 70px !important;
+  height: 70px !important;
+}

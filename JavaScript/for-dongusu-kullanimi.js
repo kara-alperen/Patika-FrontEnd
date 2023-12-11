@@ -1,5 +1,5 @@
 // For Dongusu
-// https://developer.mozilla.org/tr/docs/Web/JavaScript/Guide/Loops_and_iteration
+
 
 // for ([başlangıçAtaması]; [koşulİfadesi]; [arttırımİfadesi]) {
 // yapilacak islem

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>To Do List</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<link rel="stylesheet" href="index.css" />
+		<!-- Bootstrap CSS v5.2.1 -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous"
+		/>
+	</head>
+
+	<body class="container " >
+
+		<!-- toast start -->
+			<div
+					class="toast ms-auto fixed-top  row todoToast  "
+					role="alert"
+					aria-live="assertive"
+					aria-atomic="true"
+					
+				>
+			
+				
+          <button
+							type="button"
+							class="btn d-inline text-end py-0 pe-4"
+							style="font-size: 1.5rem; "
+              onclick="closeToast()"
+			  			
+						>X</button>
+							<div class="toast-body" id="addedToastBody">
+
+				</div>	
+				<div class="toast-body" id="emptyInput"></div>
+				</div>
+		<!-- toast end -->
+		<!-- header start -->
+		<div  class="header mt-5   row container  mx-2">
+			<div class="container mb-4"  >
+	<img
+				src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+				class="mb-1 img-fluid "
+				style="min-width: 50px ; min-height:50px;"
+				alt=""
+			/>
+			<h2 >Yapılacaklar Listesi</h2>
+			</div>
+		
+			<form id="todo" class="row">
+				<input
+					class="col-lg-8 col-12 text-dark"
+					type="text"
+					id="task"
+					placeholder="Bugün ne yapacaksın?"
+				/>
+				<button id="addButton" type="submit" class="mt-1 col-lg-4 col-12">Ekle</button>
+			</form>
+
+			
+				</div>
+			</div>
+		</div>
+		<main>
+			<div class="row">
+				<ul id="todoList"></ul>
+			</div>
+		</main>
+		<footer>
+			<!-- place footer here -->
+		</footer>
+		<!-- Bootstrap JavaScript Libraries -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+			integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+			crossorigin="anonymous"
+		></script>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+			integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+			crossorigin="anonymous"
+		></script>
+		<script src="index.js"></script>
+	</body>
+</html>

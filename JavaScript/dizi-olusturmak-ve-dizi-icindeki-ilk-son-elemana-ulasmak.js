@@ -41,3 +41,8 @@ console.log(
 console.log("[] : ", Array.isArray( [] ) )
 console.log("1 : ", Array.isArray( 1 ) )
 console.log("true : ", Array.isArray( true ) )
+
+
+let egeBolgesi = ['izmir','aydın','muğla','denizli','manisa'];
+
+console.log(egeBolgesi[3])

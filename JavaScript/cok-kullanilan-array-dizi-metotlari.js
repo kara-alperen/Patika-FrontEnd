@@ -1,6 +1,4 @@
 // Cok Kullanilan Array(Dizi) Metotlari ve Array icinde Array
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-// https://www.w3schools.com/js/js_array_methods.asp
 
 let items = [1, 2, 3, 4, 5] 
 

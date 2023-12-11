@@ -1,5 +1,5 @@
 // array map kullanimi
-// https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
 
 const USERS = ["AYSE", "MehMet", "TugCE", "AkSEL"]
 

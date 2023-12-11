@@ -1,5 +1,5 @@
 // Break & Continue
-// https://www.w3schools.com/js/js_break.asp
+
 
 const LOREM_LIST = [
   'lorem', 'ipsum', 'dolor', 'amet', 'consectetur,', 'adipisicing', 'elit' 

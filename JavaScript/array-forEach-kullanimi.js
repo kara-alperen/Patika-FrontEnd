@@ -1,6 +1,5 @@
 // Array forEach Metotu
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/forEach
-// https://www.w3schools.com/jsref/jsref_foreach.asp
+
 
 const PRODUCTS = ["Laptop", "Phone", "Speaker", "Desktop PC", "Server", "Mouse", "Keyboard"]
 

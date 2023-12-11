@@ -1,5 +1,5 @@
 // While Dongusu
-// https://www.w3schools.com/js/js_loop_while.asp
+
 
 // let counter = 0;
 

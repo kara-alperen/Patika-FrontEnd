@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+	color: #f2e3db;
+}
+body {
+	margin: 0;
+	font-family: Arial;
+	font-size: 17px;
+	background-color: #251e91 !important;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+#todo > button {
+	background-color: #4863bd;
+	border: 0;
+}
+#addButton {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#todoList > li {
+	cursor: pointer;
+	position: relative;
+	padding: 12px 8px 12px 40px;
+	font-size: 18px;
+	transition: 0.2s;
+	list-style-type: none;
+	border-bottom: 1px solid #f2e3db;
+	margin-bottom: 1rem;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#todoList > li:hover {
+	box-shadow: -13px 16px 12px -2px rgba(7, 11, 65, 0.75);
+	-webkit-box-shadow: -13px 16px 12px -2px rgba(7, 11, 65, 0.75);
+	-moz-box-shadow: -13px 16px 12px -2px rgba(7, 11, 65, 0.75);
+}
+
+.done {
+	background: #320e94 !important;
+	text-decoration: line-through;
+}
+/* tik iconu */
+.done::before {
+	margin-top: 0.5rem;
+	content: "";
+	position: absolute;
+	border-style: solid;
+	color: #e86a33 !important;
+	border-width: 0 2px 2px 0;
+	top: 10px;
+	left: 16px;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 7px;
+}
+
+.header {
+	padding: 60px 40px;
+	color: white;
+	text-align: center;
+}
+.header::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.toast {
+	background-color: #f2e3db !important;
+	max-height: 25vh;
+	overflow-y: scroll;
+	margin-right: 5px !important;
+}
+.toast-body {
+	padding: 5px !important;
+}
+.toast-header {
+	padding-top: 0 !important;
+
+	background-color: #4612be !important;
+}
+
+.todoToast > button {
+	color: #e86a33 !important;
+}
+.todoToast > button:hover {
+	border: 1px solid #f2e3db !important;
+	color: #263a29 !important;
+}
+
+.toast-header > button {
+	color: #e86a33 !important;
+}
+.toast-header > button:hover {
+	border: 1px solid #e86a33 !important;
+	color: #f2e3db !important;
+}
+input {
+	margin: 0;
+	border: none;
+	border-radius: 0;
+	width: 75%;
+	padding: 10px;
+	float: left;
+	font-size: 16px;
+	background-color: #f2e3db;
+}
+.toast-header {
+	color: black !important;
+	margin-bottom: 2px;
+	margin-right: 5px;
+	border-radius: 0 !important;
+}
+.button {
+	padding: 10px;
+	width: 25%;
+	background: #d9d9d9;
+	color: #555;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 0;
+}
+
+#todo > button:hover {
+	box-shadow: inset 0 0 100px 100px rgba(255, 253, 253, 0.1);
+}

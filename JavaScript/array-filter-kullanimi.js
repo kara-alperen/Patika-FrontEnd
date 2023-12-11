@@ -1,5 +1,4 @@
 // array filter kullanimi
-// https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 
 // 5 harften fazla olanlar (6) ??
 const PRODUCTS = ["Mic", "Cable", "Speaker", "Desktop PC", "Server", "Mouse", "Keyboard"]

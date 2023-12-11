@@ -1,5 +1,5 @@
-// fetch api ile calismak
-// https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+//********* fetch api ile calismak
+
 
 // JSON dosyadan veri cekmek:
 fetch("data/settings.json").then(
@@ -21,3 +21,4 @@ fetch("https://jsonplaceholder.typicode.com/posts").then(
     userListDOM.appendChild(liDOM)
   })
 })
+

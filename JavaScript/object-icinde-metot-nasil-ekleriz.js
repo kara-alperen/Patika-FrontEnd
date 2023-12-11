@@ -12,3 +12,6 @@ let user1 = {
 
 console.log(user1)
 console.log(user1.shortName)
+
+function yaz(){console.log("Merhaba Kodluyoruz")}
+yaz("name");

@@ -1,0 +1,1 @@
+PROJEYİ ÇALIŞTIRMADAN ÖNCE 'npm install' YÜKLEMESİNİ YAPINIZ
